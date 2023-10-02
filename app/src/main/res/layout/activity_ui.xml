@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UiActivity">
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UI/UX DESIGN"
+                android:textSize="27sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/purple"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uiuxparagraph"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/merriweathersansmedium"
+                android:justificationMode="inter_word">
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software Used"
+                android:textSize="27sp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:textColor="@color/purple"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/xd">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/sketch">
+                </de.hdodenhof.circleimageview.CircleImageView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginStart="85dp"
+                    android:text="Adobe XD"
+                    android:fontFamily="@font/merriweathersansmedium"
+                    android:justificationMode="inter_word">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginStart="225dp"
+                    android:text="Sketch"
+                    android:fontFamily="@font/merriweathersansmedium"
+                    android:justificationMode="inter_word">
+                </TextView>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/figma">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/invision">
+                </de.hdodenhof.circleimageview.CircleImageView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginStart="95dp"
+                    android:text="Figma"
+                    android:fontFamily="@font/merriweathersansmedium"
+                    android:justificationMode="inter_word">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginStart="210dp"
+                    android:text="InVision"
+                    android:fontFamily="@font/merriweathersansmedium"
+                    android:justificationMode="inter_word">
+                </TextView>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_marginStart="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/balsamiq">
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="80dp"
+                    android:layout_marginStart="50dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/axure">
+                </de.hdodenhof.circleimageview.CircleImageView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginStart="80dp"
+                    android:text="Balsamiq"
+                    android:fontFamily="@font/merriweathersansmedium"
+                    android:justificationMode="inter_word">
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginStart="215dp"
+                    android:text="Axure RP"
+                    android:fontFamily="@font/merriweathersansmedium"
+                    android:justificationMode="inter_word">
+                </TextView>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
